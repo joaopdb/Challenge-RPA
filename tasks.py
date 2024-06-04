@@ -18,7 +18,7 @@ def main():
     SEARCH_PHRASE = SEARCH['SEARCH_PHRASE']
 
   
-    log.basicConfig(filename="task.log", level=log.INFO,
+    log.basicConfig(filename="output/task.log", level=log.INFO,
                     format="%(asctime)s %(levelname)-8s %(message)s",
                     datefmt="%Y-%m-%d %H:%M:%S")
     log.info("Started")
